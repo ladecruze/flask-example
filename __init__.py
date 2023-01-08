@@ -14,7 +14,7 @@ def get_db_connection():
 
     return conn
 
-app = Flask(__name__,static_folder='static/')
+#app = Flask(__name__,static_folder='static/')
 
 @app.route("/")
 def hello_world():
