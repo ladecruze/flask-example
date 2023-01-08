@@ -1,6 +1,6 @@
 from flask import Flask, make_response, request
 from flask import render_template
-import leggo.init_db
+#import leggo.init_db
 from flask import jsonify
 import psycopg2
 
